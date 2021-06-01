@@ -1,10 +1,19 @@
 body{
 	text-align: center;
-	font-family: 'Montserrat';
+	font-family: 'Sans-serif';
 	color: #fff;
-	background-image: url("bg-image.jpg");
+	background-image: url("images/bg-image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+  background-position: center center;
+	background-attachment: fixed;
+	background-color: #C1C8E4;
+}
+
+@media only screen and (max-width: 767px) {
+body {
+background-image: url("images/bg-image-small-screen.jpg");
+}
 }
 
 .heading{
